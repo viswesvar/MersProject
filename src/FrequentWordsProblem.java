@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 class BioInfomatics{
 String Name;
 int Index;
@@ -14,7 +15,12 @@ public class FrequentWordsProblem {
     	BioTest.Name = "Suganya solution";
     	System.out.println(BioTest.Name);
         String dna = "ACGTTGCATGTCGCATGATGCATGAGAGCT";
-        int k = 4;
+        System.out.println("Enetr a value");
+        Scanner input = new Scanner(System.in);
+        int k = input.nextInt();
+        
+       
+        System.out.println(k);
 
         ArrayList<String> flow = makeResult(dna, k);
 
