@@ -25,7 +25,7 @@ public class FrequentWordsProblem {
         ArrayList<String> flow = makeResult(dna, k);
 
         for (String Make : flow) {
-            System.out.print(Make + " "+ "result ");
+            System.out.print(Make + " "+ "<-Mers-> ");
         }
     }
 
